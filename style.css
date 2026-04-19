@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#head-div{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+    box-shadow: 2px 2px 20px rgb(184, 168, 168);
+}
+
+#button-addon2:active {
+    transform: scale(0.95);
+}
+#enter-task{
+    background-color: rgb(184, 168, 168);
+    box-shadow: 2px 2px 20px rgb(184, 168, 168);
+}
+
+#caro{
+    display: flex;
+    /* justify-content: center; */
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1rem;
+
+    height: 60vh;
+    margin: 2rem;
+    padding: 1rem;
+
+    box-shadow: 2px 2px 20px rgb(190, 149, 149);
+}
+
+@media (min-width : 768px) {
+    #head-div{
+        width: 30vw;
+    }
+    #enter-task{
+        width: 30vw;
+    }
+    #caro{
+        width: 30vw;
+    }
+    
+}
